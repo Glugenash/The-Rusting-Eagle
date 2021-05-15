@@ -1,0 +1,2 @@
+RIT = "countries/Bella Ciao.txt"
+VIC = "countries/Vichy.txt"
