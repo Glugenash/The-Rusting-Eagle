@@ -9,52 +9,24 @@ bookmarks = {
 		
 		"GER"={
 			history = "GER_GATHERING_STORM_DESC"
-			ideology = fascism
-			available = { NOT = { has_dlc = "Waking the Tiger" } }
+			ideology = esotericism
 			ideas = {
-				sour_loser
-				general_staff
-				GER_mefo_bills_1
 			}
 			focuses = {
-				GER_anschluss
-				GER_danzig_or_war
-				GER_ussr_war_goal
 			}
 		}
 		"ITA"={
 			history = "ITA_GATHERING_STORM_DESC"
 			ideology = fascism
 			ideas = {
-				vittoria_mutilata
-				victor_emmanuel
 			}	
 			focuses = {
-				ITA_pact_of_steel
-				ITA_spanish_italian_faction
-				ITA_italy_first
+
 			}		
 		}
 
 		"---"={
 			history = "OTHER_GATHERING_STORM_DESC"
-		}
-
-
-		# minors from DLC ####
-		"CAN"={
-			minor = yes
-			history = "CAN_GATHERING_STORM_DESC"
-			ideology = democratic
-			ideas = {
-				CAN_great_depression_1
-				CAN_conscription_crisis
-			}
-			focuses = {
-				CAN_skewer_the_eagle
-				CAN_north_american_alliance
-				CAN_join_comintern
-			}
 		}
 		
 		effect = {
