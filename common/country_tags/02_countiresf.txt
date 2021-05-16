@@ -1,2 +1,3 @@
 RIT = "countries/Bella Ciao.txt"
 VIC = "countries/Vichy.txt"
+IJR = "countries/Japanese Army.txt"

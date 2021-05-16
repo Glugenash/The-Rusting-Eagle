@@ -1075,3 +1075,7 @@
  HUN_GER_fascism_autonomy_reichskommissariat_DEF:0 "the Government of National Unity"
  NOR_DEN_GER_nazi_fascism:0 "Greater Nordic-Dane Empire"
  NOR_DEN_GER_nazi_fascism_DEF:0 "the Greater Nordic-Dane Empire"
+ PRC_SOV_communism:0 "Chinese Soviet Republic"
+ PRC_SOV_communism_DEF:0 "the Chinese Soviet Republic"
+ PRC_SOV_communism_autonomy_puppet:0 "Chinese Soviet Republic"
+ PRC_SOV_communism_autonomy_puppet_DEF:0 "the Chinese Soviet Republic"
