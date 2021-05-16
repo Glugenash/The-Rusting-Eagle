@@ -1,0 +1,40 @@
+﻿l_english:
+ GER_fascism:0 "Großdeutsches Reich"
+ GER_fascism_DEF:0 "The Großdeutsches Reich"
+ GER_fascism_ADJ:0 "German"
+ GER_fascism_party:0 "NSDAP"
+ GER_fascism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei"
+
+ GER_democratic:0 "Federal Republic of Germany"
+ GER_democratic_DEF:0 "The Federal Republic of Germany"
+ GER_democratic_ADJ:0 "German"
+ GER_democratic_party:0 "SPD"
+ GER_democratic_party_long:0 "Sozialdemokratische Partei Deutschlands"
+
+ GER_neutrality:0 "German Empire"
+ GER_neutrality_DEF:0 "The German Empire"
+ GER_neutrality_ADJ:0 "German"
+ GER_neutrality_party:0 "DNVP"
+ GER_neutrality_party_long:0 "Deutschenationale Volkspartei"
+
+ GER_communism:0 "Deutsches Volksreich"
+ GER_communism_DEF:0 "The Deutsches Volksreich"
+ GER_communism_ADJ:0 "German"
+ GER_communism_party:0 "RSNP"
+ GER_communism_party_long:0 "Revolutionäre Sozialnationalistische Partei"
+
+ GER_esotericism:0 "Hyperborean Germanic Reich"
+ GER_esotericism_DEF:0 "The Earthly Germanic Hyperborea of the Collective Aryan Unconscious"
+ GER_esotericism_ADJ:0 "Germanic"
+ GER_esotericism_party:0 "NS-Ahnenerbe"
+ GER_esotericism_party_long:0 "Nationalsozialistisches Ahnenerbe"
+
+ GER_anarchism_ideology:0 "Union of Germany"
+ GER_anarchism_ideology_DEF:0 "The Union of Germany"
+ GER_anarchism_ideology_ADJ:0 "German"
+ GER_anarchism_ideology_party:0 "UDE"
+ GER_anarchism_ideology_party_long:0 "Union deutscher Egoisten"
+
+ GER:0 "Germany"
+ GER_DEF:0 "Germany"
+ GER_ADJ:0 "German"

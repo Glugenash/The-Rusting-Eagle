@@ -1,6 +1,9 @@
 ﻿capital = 64
-oob = "GER_1936"
-set_cosmetic_tag = GER_greater_german_reich
+set_research_slots = 4
+set_convoys = 200
+set_stability = 0.4
+set_war_support = 0.65
+oob = "GER_1939"
 
 # Starting tech
 set_technology = {
@@ -24,7 +27,6 @@ set_technology = {
 	strategic_bomber1 = 1
 	CAS1 = 1
 	naval_bomber1 = 1
-	
 	mobile_warfare = 1
 	trade_interdiction = 1
 	formation_flying = 1
@@ -33,26 +35,6 @@ set_technology = {
 	fuel_refining = 1
 }
 
-if = {
-	limit = {
-		not = { has_dlc = "Man the Guns" }
-	}
-	set_technology = {
-		early_submarine = 1
-		basic_submarine = 1
-		early_destroyer = 1
-		basic_destroyer = 1
-		early_light_cruiser = 1
-		basic_light_cruiser = 1
-		early_heavy_cruiser = 1
-		basic_heavy_cruiser = 1
-		early_battleship = 1
-		basic_battleship = 1
-		early_battlecruiser = 1
-		transport = 1
-	}
-	set_naval_oob = "GER_1936_naval"
-}
 if = {
 	limit = {
 		has_dlc = "Man the Guns"
@@ -83,7 +65,24 @@ if = {
 		sonar = 1
 		basic_cruiser_armor_scheme = 1
 	}
-	set_naval_oob = "GER_1936_naval_mtg"
+	set_naval_oob = "GER_1939_naval_mtg"
+	else = {
+		set_technology = {
+			early_submarine = 1
+			basic_submarine = 1
+			early_destroyer = 1
+			basic_destroyer = 1
+			early_light_cruiser = 1
+			basic_light_cruiser = 1
+			early_heavy_cruiser = 1
+			basic_heavy_cruiser = 1
+			early_battleship = 1
+			basic_battleship = 1
+			early_battlecruiser = 1
+			transport = 1
+		}
+		set_naval_oob = "GER_1939_naval"
+	}
 }
 if = {
 	limit = {
@@ -94,33 +93,40 @@ if = {
 	}
 }
 
-set_research_slots = 4
-set_convoys = 200
-set_stability = 0.2
-set_war_support = 0.5
+# Diplomacy
+if = {
+	limit = {
+		has_dlc = "Death or Dishonor"
+	}
+	set_autonomy = {
+		target = SLO
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = CRO
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = HOL
+		autonomous_state = autonomy_reichskommissariat
+	}
+	set_autonomy = {
+		target = BEL
+		autonomous_state = autonomy_reichskommissariat
+	}
+	else = {
+		puppet = HOL
+		puppet = BEL
+	}	
+}
+create_faction = "German Sphere"
+add_to_faction = GER
+add_to_faction = SLO
+add_to_faction = CRO
+add_to_faction = HOL
+add_to_faction = BEL
 
-#Trade
-set_autonomy = {
-	target = SLO
-	autonomous_state = autonomy_integrated_puppet
-}
-set_autonomy = { target = HOL autonomy_state = autonomy_integrated_puppet }
-set_autonomy = {
-	target = BEL
-	autonomous_state = autonomy_integrated_puppet
-}
-set_autonomy = {
-	target = CRO
-	autonomous_state = autonomy_integrated_puppet
-}
-set_autonomy = {
-	target = HUN
-	autonomous_state = autonomy_integrated_puppet
-}
-	
-give_military_access = SLO	
-	
-
+# Politics
 set_politics = {
 	ruling_party = esotericism
 	last_election = "1933.3.5"
@@ -128,27 +134,24 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 15
-	esotericism = 40
-	fascism = 30
-	communism = 15
+	esotericism = 31
+	fascism = 22
+	communism = 16
+	democratic = 12
+	neutrality = 11
+	anarchism_ideology = 8
 }
 
-create_faction = Axis
-add_to_faction = GER
-
-
 add_ideas = {
-	general_staff
-	limited_exports
-	limited_conscription
-	partial_economic_mobilisation
+	service_by_requirement
+	closed_economy
+	tot_economic_mobilisation
 }
 
 create_country_leader = {
-	name = "Wilhelm Nauhaus"
+	name = "Ernst Schäfer"
 	desc = ""
-	picture = "Wilhelm Nauhaus.dds"
+	picture = "Ernst Schaefer.dds"
 	expire = "1965.1.1"
 	ideology = esoteric_nazism
 	traits = {
@@ -156,66 +159,56 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Adolf Hitler"
-	desc = "POLITICS_ADOLF_HITLER_DESC"
-	picture = "Portrait_Germany_Adolf_Hitler.dds"
+	name = "Martin Bormann"
+	desc = ""
+	picture = "Martin Bormann.dds"
 	expire = "1965.1.1"
 	ideology = nazism
 	traits = {
-		dictator
+		exiled
 	}
 }
 
 create_country_leader = {
-	name = "Konrad Adenauer"
-	desc = "POLITICS_KONRAD_ADENAUER_DESC"
-	picture = "Portrait_Germany_Konrad_Adenauer.dds"
+	name = "Erich Ollenhauer"
+	desc = ""
+	picture = "Erich Ollenhauer.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = socialism
+	traits = {
+		exiled
+	}
+}
+
+create_country_leader = {
+	name = "Otto Strasser"
+	desc = ""
+	picture = "Otto Strasser.dds"
+	expire = "1965.1.1"
+	ideology = anti_revisionism
+	traits = {
+		exiled
+	}
+}
+
+create_country_leader = {
+	name = "Walther von Brauchitsch"
+	desc = ""
+	picture = "Walther von Brauchitsch.dds"
+	expire = "1965.1.1"
+	ideology = oligarchism
 	traits = {
 	}
 }
 
 create_country_leader = {
-	name = "Wilhelm Pieck"
-	desc = "POLITICS_WILHELM_PIECK_DESC"
-	picture = "Portrait_Germany_Wilhelm_Pieck.dds"
+	name = "Collective"
+	desc = ""
+	picture = "Egoist Collective.dds"
 	expire = "1965.1.1"
-	ideology = stalinism
+	ideology = individualist_anarchism
 	traits = {
-		#stalins_puppet # This will now be added in on_actions if SOV releases the country as a puppet via action or war conference
-		exiled # He left in 1933 so he should still be exiled
 	}
-}
-
-#create_country_leader = {
-#	name = "Otto Wels"
-#	desc = "POLITICS_OTTO_WELS_DESC"
-#	picture = "Portrait_Germany_Adolf_Hitler.dds"
-#	expire = "1939.1.16"
-#	ideology = socialism
-#	traits = {
-#		exiled
-#		union_man
-#	}
-#}
-#
-#create_country_leader = {
-#	name = "Ernst Thälmann"
-#	desc = "POLITICS_ERNST_THALMANN_DESC"
-#	picture = "Portrait_Germany_Adolf_Hitler.dds"
-#	expire = "1956.1.1"
-#	ideology = stalinism
-#	traits = {
-#		assassination_survivor
-#		stalins_puppet
-#		political_prisoner
-#	}
-#}
-
-add_namespace = {
-	name = "ger_unit_leader"
-	type = unit_leader
 }
 
 create_field_marshal = {
