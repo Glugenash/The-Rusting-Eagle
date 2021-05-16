@@ -1,5 +1,5 @@
 ﻿capital = 64
-oob = "GER_1939"
+oob = "GER_1936"
 set_cosmetic_tag = GER_greater_german_reich
 
 # Starting tech
@@ -97,29 +97,25 @@ if = {
 set_research_slots = 4
 set_convoys = 200
 set_stability = 0.2
-set_war_support = 0.4
+set_war_support = 0.5
 
 #Trade
 set_autonomy = {
 	target = SLO
-	autonomous_state = autonomy_puppet
+	autonomous_state = autonomy_integrated_puppet
 }
 set_autonomy = { target = HOL autonomy_state = autonomy_integrated_puppet }
-set_autonomy = {
-	target = ITA
-	autonomous_state = autonomy_puppet
-}
 set_autonomy = {
 	target = BEL
 	autonomous_state = autonomy_integrated_puppet
 }
 set_autonomy = {
 	target = CRO
-	autonomous_state = autonomy_puppet
+	autonomous_state = autonomy_integrated_puppet
 }
 set_autonomy = {
 	target = HUN
-	autonomous_state = autonomy_puppet
+	autonomous_state = autonomy_integrated_puppet
 }
 	
 give_military_access = SLO	

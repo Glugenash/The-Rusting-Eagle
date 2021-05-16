@@ -178,7 +178,8 @@ ideologies = {
 		
 			gen_esotericism = {
 			}
-
+			eso_zealotry = {
+			}
 			esoteric_nazism = { can_be_randomly_selected = no }
 			apocalytism = { can_be_randomly_selected = no }
 		}

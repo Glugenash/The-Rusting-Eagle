@@ -1,0 +1,4 @@
+﻿l_english:
+ #ideas
+ CHI_american_debt:0 "Debt to America"
+ CHI_american_debt_desc:0 "The Americans provided us with a massive amount of funding and weaponry to help us almost win the Chinese Civil War, and now we must pay them back. We could cancel this debt to free up our industry, but this would vastly anger [USA.GetNameDef]..."

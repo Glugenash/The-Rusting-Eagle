@@ -131,6 +131,17 @@ create_country_leader = {
 }
 
 create_country_leader = {
+	name = "Ma Hongkui"
+	desc = "POLITICS_Hirohito_DESC"
+	picture = "Portrait_Japan_Jisaburo_Ozawa.dds"
+	expire = "1989.1.1"
+	ideology = eso_zealotry
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
 	name = "Kyuichi Tokuda"
 	desc = "POLITICS_Hirohito_DESC"
 	picture = "GFX_Portrait_kyuichi_tokuda"
