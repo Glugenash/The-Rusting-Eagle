@@ -456,11 +456,21 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/democratic_group.dds"
 	}
 	
-	spriteType = {
-		name = "GFX_ideology_esotericism_group"
-		texturefile = "gfx/interface/ideologies/esotericism_group.dds"
-	}
+	#spriteType = {
+	#	name = "GFX_ideology_esotericism_group"
+	#	texturefile = "gfx/interface/ideologies/esotericism_group.dds"
+	#}
 	
+	frameAnimatedSpriteType = {
+		name = "GFX_ideology_esotericism_group"
+		texturefile = "gfx/interface/ideologies/esotericism_spin.dds"
+		noOfFrames = 30
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+
 	spriteType = {
 		name = "GFX_ideology_anarchism_ideology_group"
 		texturefile = "gfx/interface/ideologies/anarchism_group.dds"
