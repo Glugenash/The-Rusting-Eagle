@@ -1,6 +1,4 @@
 ﻿l_english:
-
-
  ENG_fascism:0 "British Empire"
  ENG_fascism_DEF:0 "the British Empire"
  ENG_democratic:0 "United Kingdom"
@@ -3193,3 +3191,15 @@
  IJR:0 "Imperial Japanese Remnants"
  IJR_DEF:0 "the Imperial Japanese Remnants"
  IJR_ADJ:0 "Japanese"
+ HYD:0 "Hyderabad Deccan"
+ HYD_DEF:0 "the Hyderabad Deccan"
+ HYD_ADJ:0 "Hyderabadian"
+ MYS_fascism:0 "Sultanate of Mysore"
+ MYS_neutrality:0 "Kingdom of Mysore"
+ MYS_communism:0 "Mysorian Communal Republic"
+ MYS_democratic:0 "Mysore Republic"
+ MYS_fascism_DEF:0 "the Sultanate of Mysore"
+ MYS_neutrality_DEF:0 "the Kingdom of Mysore"
+ MYS_communism_DEF:0 "the Mysorian Communal Republic"
+ MYS_democratic_DEF:0 "the Mysore Republic"
+ MYS_fascism_ADJ:0 "Mysorean"

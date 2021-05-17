@@ -1,3 +1,5 @@
 RIT = "countries/Bella Ciao.txt"
 VIC = "countries/Vichy.txt"
 IJR = "countries/Japanese Army.txt"
+HYD = "countries/Hyderabad.txt"
+MYS = "countries/Mysore.txt"

@@ -1079,3 +1079,8 @@
  PRC_SOV_communism_DEF:0 "the Chinese Soviet Republic"
  PRC_SOV_communism_autonomy_puppet:0 "Chinese Soviet Republic"
  PRC_SOV_communism_autonomy_puppet_DEF:0 "the Chinese Soviet Republic"
+ VIN_subject:0 "$OVERLORDADJ$ Indochina"
+ VIN_subject_DEF:0 "$OVERLORDADJ$ Indochina"
+ VIN_subject_ADJ:0 "Indochinese"
+ RAJ_fascist_hindu_fascism:0 "Hindu Rashtra"
+ RAJ_fascist_hindu_fascism_DEF:0 "the Hindu Rashtra"
