@@ -1,10 +1,9 @@
-﻿capital = 774
-
-oob = "FRA_1936"
-set_cosmetic_tag = FRA_FREE
+﻿capital = 459
+set_cosmetic_tag = Free_France
 set_research_slots = 3
+set_war_support = 0.85
 set_stability = 0.5
-
+set_convoys = 100
 
 # Starting tech
 set_technology = {
@@ -40,24 +39,7 @@ if = {
 	}
 	set_technology = { camelry = 1 }
 }
-if = {
-	limit = { not = { has_dlc = "Man the Guns" } }
-		set_technology = {
-		early_submarine = 1
-		basic_submarine = 1
-		early_destroyer = 1
-		basic_destroyer = 1
-		early_light_cruiser = 1
-		basic_light_cruiser = 1
-		early_heavy_cruiser = 1
-		basic_heavy_cruiser = 1
-		early_battleship = 1
-		early_battlecruiser = 1
-		basic_battlecruiser = 1
-		early_carrier = 1
-		transport = 1
-	}
-}
+
 if = {
 	limit = { has_dlc = "Man the Guns" }
 	set_technology = {
@@ -82,6 +64,23 @@ if = {
 		basic_heavy_armor_scheme = 1
 		mtg_transport = 1
 	}
+	else = {
+		set_technology = {
+			early_submarine = 1
+			basic_submarine = 1
+			early_destroyer = 1
+			basic_destroyer = 1
+			early_light_cruiser = 1
+			basic_light_cruiser = 1
+			early_heavy_cruiser = 1
+			basic_heavy_cruiser = 1
+			early_battleship = 1
+			early_battlecruiser = 1
+			basic_battlecruiser = 1
+			early_carrier = 1
+			transport = 1
+		}
+	}
 }
 if = {
 	limit = {
@@ -92,27 +91,25 @@ if = {
 	}
 }
 
-set_convoys = 300
-
-
 set_politics = {
 	ruling_party = democratic
-	last_election = "1940.5.1"
+	last_election = "1936.5.3"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 64
-	fascism = 1
+	democratic = 45
+	fascism = 2
 	neutrality = 15
-	communism = 20
+	communism = 34
+	esotericism = 2
+	anarchism_ideology = 2
 }
 
-#Order matters here Daladier will start as leaders because added last
 create_country_leader = {
 	name = "Charles De Gaulle"
-	desc = "POLITICS_MAURICE_THOREZ_DESC"
-	picture = "Portrait_France_Charles_De_Gaulle.dds"
+	desc = ""
+	picture = "Charles De Gaulle.dds"
 	expire = "1965.1.1"
 	ideology = liberalism
 	traits = {
@@ -127,17 +124,6 @@ create_country_leader = {
 	picture = "GFX_portrait_fra_maurice_thorez"
 	expire = "1965.1.1"
 	ideology = 	stalinism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Philippe Pétain"
-	desc = "POLITICS_PHILIPPE_PÉTAIN_DESC"
-	picture = "Portrait_France_Philippe_Petain.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
 	traits = {
 		
 	}

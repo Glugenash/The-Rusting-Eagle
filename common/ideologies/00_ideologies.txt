@@ -224,6 +224,7 @@ ideologies = {
 			anarcho_communism = { can_be_randomly_selected = no }
 			anarcho_capitalism = { can_be_randomly_selected = no } # Sure buddy
 			individualist_anarchism = { can_be_randomly_selected = no }
+			libertarian_syndicalism = { can_be_randomly_selected = no }
 		}
 
 		dynamic_faction_names = {

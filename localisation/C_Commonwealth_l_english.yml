@@ -1,4 +1,5 @@
 ﻿l_english:
+# United Kingdom
  ENG_fascism:0 "British State"
  ENG_fascism_DEF:0 "The British State"
  ENG_fascism_ADJ:0 "British"
@@ -32,9 +33,67 @@
  ENG_anarchism_ideology:0 "British Confederation"
  ENG_anarchism_ideology_DEF:0 "The British Confederation"
  ENG_anarchism_ideology_ADJ:0 "British"
- ENG_anarchism_ideology_party:0 "CW"
- ENG_anarchism_ideology_party_long:0 "Common Wealth Party"
 
  ENG:0 "Britain"
  ENG_DEF:0 "Britain"
  ENG_ADJ:0 "British"
+
+# France
+ FRA_fascism:0 "French State"
+ FRA_fascism_DEF:0 "The French State"
+ FRA_fascism_ADJ:0 "French"
+
+ FRA_democratic:0 "French Republic"
+ FRA_democratic_DEF:0 "The French Republic"
+ FRA_democratic_ADJ:0 "French"
+
+ FRA_neutrality:0 "French State"
+ FRA_neutrality_DEF:0 "The French State"
+ FRA_neutrality_ADJ:0 "French"
+
+ FRA_communism:0 "French Democratic Republic"
+ FRA_communism_DEF:0 "The French Democratic Republic"
+ FRA_communism_ADJ:0 "French"
+
+ FRA_esotericism:0 "Franco-Christian Realm"
+ FRA_esotericism_DEF:0 "The Franco-Christian Realm"
+ FRA_esotericism_ADJ:0 "French"
+
+ FRA_anarchism_ideology:0 "Confederation of the Communes of France"
+ FRA_anarchism_ideology_DEF:0 "The Confederation of the Communes of France"
+ FRA_anarchism_ideology_ADJ:0 "French"
+
+ FRA:0 "France"
+ FRA_DEF:0 "France"
+ FRA_ADJ:0 "French"
+
+ Free_France_democratic:0 "Free France"
+ Free_France_democratic_DEF:0 "Free France"
+ Free_France_democratic_ADJ:0 "Free French"
+
+# Others
+ RIT:0 "Italian government-in-exile"
+ RIT_DEF:0 "The Italian government-in-exile"
+ RIT_ADJ:0 "Italian government-in-exile"
+ BGE:0 "Belgian government-in-exile"
+ BGE_DEF:0 "The Belgian government-in-exile"
+ BGE_ADJ:0 "Belgian government-in-exile"
+ DGE:0 "Dutch government-in-exile"
+ DGE_DEF:0 "The Dutch government-in-exile"
+ DGE_ADJ:0 "Dutch government-in-exile"
+ DGE_democratic:0 "Dutch government-in-exile"
+ DGE_democratic_DEF:0 "The Dutch government-in-exile"
+ DGE_democratic_ADJ:0 "Dutch government-in-exile"
+
+ EGY_ENG_subject:0 "British Administration of Egypt"
+ EGY_ENG_subject_DEF:0 "British Administration of Egypt"
+ CAN_ENG_subject:0 "Dominion of Canada"
+ CAN_ENG_subject_DEF:0 "Dominion of Canada"
+ SAF_ENG_subject:0 "Union of South Africa"
+ SAF_ENG_subject_DEF:0 "Union of South Africa"
+ NZL_ENG_subject:0 "Dominion of New Zealand"
+ NZL_ENG_subject_DEF:0 "Dominion of New Zealand"
+ AST_ENG_subject:0 "Commonwealth of Australia"
+ AST_ENG_subject_DEF:0 "Commonwealth of Australia"
+ MAL_ENG_subject:0 "Federation of Malaya"
+ MAL_ENG_subject_DEF:0 "Federation of Malaya"
