@@ -5,6 +5,7 @@ state={
 
 	history={
 		owner = BEL
+		add_core_of = BGE
 		victory_points = {
 			3516 5 
 		}

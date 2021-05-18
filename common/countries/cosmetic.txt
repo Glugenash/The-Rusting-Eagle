@@ -292,8 +292,8 @@ HOL_benelux_unified = {
 }
 
 SPR_nationalist_spain = {
-	color = rgb { 200 100 31 }
-	color_ui = rgb { 245 123 38 }
+	color = rgb { 145 114 96 }
+	color_ui = rgb { 145 114 96 }
 }
 SPR_carlist_spain = {
 	color = rgb { 255 128 0 }

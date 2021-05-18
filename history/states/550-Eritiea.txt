@@ -11,6 +11,8 @@ state=
 		owner = ETH
 		add_core_of = ERI
 		add_core_of = ETH
+		add_claim_by = ITA
+		add_claim_by = RIT
 		victory_points = {
 			12766 1
 		}

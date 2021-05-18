@@ -8,6 +8,7 @@ state={
 
 	history={
 		owner = RIT
+		add_claim_by = ITA
 		
 		victory_points = {
 			11954 3 

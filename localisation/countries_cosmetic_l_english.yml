@@ -1,4 +1,10 @@
 ﻿l_english:
+ DGE:0 "Dutch government-in-exile"
+ DGE_DEF:0 "The Dutch government-in-exile"
+ DGE_ADJ:0 "Dutch government-in-exile"
+ DGE_democratic:0 "Dutch government-in-exile"
+ DGE_democratic_DEF:0 "The Dutch government-in-exile"
+ DGE_democratic_ADJ:0 "Dutch government-in-exile"
  INS_HOL_democratic:0 "Dutch East Indies"
  INS_HOL_democratic_DEF:0 "the Dutch East Indies"
  INS_subject:0 "$OVERLORDADJ$ East Indies"

@@ -5,8 +5,8 @@ GER = {
 	color_ui = rgb { 64 64 64 }
 }
 ENG = {
-	color = rgb { 201 56 93 }
-	color_ui = rgb { 255 73 121 }
+	color = rgb { 143 64 83 }
+	color_ui = rgb { 143 64 83 }
 }
 SOV = {
 	color = rgb { 125 13 24 }
@@ -17,8 +17,8 @@ SWE = {
 	color_ui = rgb { 47 172 255 }
 }
 FRA = {
-	color = rgb { 57 113 228 }
-	color_ui = rgb { 74 147 255 }
+	color = rgb { 82 94 133 }
+	color_ui = rgb { 82 94 133 }
 }
 LUX = {
 	color = rgb { 65 175 179 }
@@ -98,8 +98,8 @@ BUL = {
 	color_ui = rgb { 210 147 217 }
 }
 POR = {
-	color = rgb { 39 116 70 }
-	color_ui = rgb { 51 151 91 }
+	color = rgb { 33 56 57 }
+	color_ui = rgb { 33 56 57 }
 }
 FIN = {
 	color = rgb { 205 212 228 }
@@ -166,8 +166,8 @@ ELS = {
 	color_ui = rgb { 198 169 248 }
 }
 ETH = {
-	color = rgb { 152 130 191 }
-	color_ui = rgb { 198 169 248 }
+	color = rgb { 137 125 148 }
+	color_ui = rgb { 137 125 148 }
 }
 GUA = {
 	color = rgb { 72 49 112 }
@@ -186,8 +186,8 @@ JAP = {
 	color_ui = hsv { 0.05 0.25 1.2 }
 }
 LIB = {
-	color = rgb { 152 130 191 }
-	color_ui = rgb { 198 169 248 }
+	color = rgb { 102 97 123 }
+	color_ui = rgb { 102 97 123 }
 }
 MEX = {
 	color = rgb { 104 152 83 }
@@ -222,8 +222,8 @@ PRU = {
 	color_ui = rgb { 255 246 255 }
 }
 SAF = {
-	color = rgb { 195 107 160 }
-	color_ui = rgb { 198 169 248 }
+	color = rgb { 134 111 116 }
+	color_ui = rgb { 134 111 116 }
 }
 SAU = {
 	color = rgb { 171 190 152 }
@@ -702,4 +702,12 @@ WUR = {
 SHL = {
 	color = rgb { 51 51 255 }
 	color_ui = rgb { 51 51 255 }
+}
+BGE = {
+	color = rgb { 138 126 75 }
+	color_ui = rgb { 138 126 75 }
+}
+RIT = {
+	color = rgb { 121 150 73 }
+	color_ui = rgb { 121 150 73 }
 }
