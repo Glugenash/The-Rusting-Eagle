@@ -1,6 +1,14 @@
-﻿capital = 427
+﻿capital = 423
 
 oob = "ANG_1936"
+
+ENG = {
+	set_autonomy = {
+		target = MDP
+		autonomous_state = autonomy_colony
+		freedom_level = 0.35
+	}
+}
 
 set_stability = 0.6
 set_war_support = 0.4
@@ -43,11 +51,11 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Osman Ali Khan"
+	name = "Arthur Hope"
 	desc = "POLITICS_LORD_LINLITHGOW_DESC"
 	picture = "gfx/leaders/RAJ/GFX_RAJ_pattabhi_sitaramayya.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = oligarchism
 	traits = {
 		
 	}
