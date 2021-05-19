@@ -1,0 +1,12 @@
+on_actions = {
+
+	on_startup = {
+		effect = {
+			every_country = {
+				limit = { OR = { tag = ARG tag = CHL tag = RCA tag = NIC tag = GUA tag = HON tag = PAN tag = COS tag = ELS tag = PAR tag = BOL tag = PRU tag = ECU tag = COL tag = VEN tag = CUB  tag = HAI tag = DOM tag = URG } }
+				add_opinion_modifier = { modifier = hostile_status target = USA }
+			}
+		}
+	}
+
+}
