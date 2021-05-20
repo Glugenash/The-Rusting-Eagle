@@ -158,31 +158,6 @@ HRE_UNIFIED = {
 	color_ui = rgb { 128 128 128 }
 }
 
-NOR_reichskommissariat = {
-	color = rgb { 115 115 115 }
-	color_ui = rgb { 122 145 93 }
-}
-
-HOL_reichskommissariat = {
-	color = rgb { 115 115 115 }
-	color_ui = rgb { 122 145 93 }
-}
-
-BEL_reichskommissariat = {
-	color = rgb { 115 115 115 }
-	color_ui = rgb { 122 145 93 }
-}
-
-BLR_reichskommissariat = {
-	color = rgb { 115 115 115 }
-	color_ui = rgb { 122 145 93 }
-}
-
-UKR_reichskommissariat = {
-	color = rgb { 115 115 115 }
-	color_ui = rgb { 122 145 93 }
-}
-
 SPR_civil_war = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }
@@ -669,4 +644,14 @@ TBE_third_bulgarian_empire_neutrality = {
 ITA_social_republic = {
 	color = rgb { 141 83 46 }
 	color_ui = rgb { 141 83 46 }
+}
+
+HOL_Reichskommissariat = {
+	color = rgb { 75 75 75 }
+	color_ui = rgb { 75 75 75 }
+}
+
+BEL_Reichskommissariat = {
+	color = rgb { 55 55 55 }
+	color_ui = rgb { 55 55 55 }
 }

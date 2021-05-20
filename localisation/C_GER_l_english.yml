@@ -1,4 +1,5 @@
 ﻿l_english:
+# Germany
  GER_fascism:0 "Großdeutsches Reich"
  GER_fascism_DEF:0 "The Großdeutsches Reich"
  GER_fascism_ADJ:0 "German"
@@ -38,3 +39,9 @@
  GER:0 "Germany"
  GER_DEF:0 "Germany"
  GER_ADJ:0 "German"
+
+# Others
+ HOL_Reichskommissariat_fascism:0 "Reichskommissariat Niederlande"
+ HOL_Reichskommissariat_fascism_DEF:0 "The Reichskommissariat Niederlande"
+ BEL_Reichskommissariat_esotericism:0 "Belgische Verwaltungszone"
+ BEL_Reichskommissariat_esotericism_DEF:0 "The Belgische Verwaltungszone"
