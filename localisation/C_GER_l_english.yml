@@ -22,7 +22,7 @@
  GER_communism_DEF:0 "The Deutsches Volksreich"
  GER_communism_ADJ:0 "German"
  GER_communism_party:0 "RSNP"
- GER_communism_party_long:0 "Revolutionäre Sozialnationalistische Partei"
+ GER_communism_party_long:0 "Revolutionäre Sozial-Nationalistische Partei"
 
  GER_esotericism:0 "Hyperborean Germanic Reich"
  GER_esotericism_DEF:0 "The Earthly Germanic Hyperborea of the Collective Aryan Unconscious"
@@ -34,7 +34,7 @@
  GER_anarchism_ideology_DEF:0 "The Union of Germany"
  GER_anarchism_ideology_ADJ:0 "German"
  GER_anarchism_ideology_party:0 "UDE"
- GER_anarchism_ideology_party_long:0 "Union deutscher Egoisten"
+ GER_anarchism_ideology_party_long:0 "Union Deutscher Egoisten"
 
  GER:0 "Germany"
  GER_DEF:0 "Germany"
@@ -45,3 +45,15 @@
  HOL_Reichskommissariat_fascism_DEF:0 "The Reichskommissariat Niederlande"
  BEL_Reichskommissariat_esotericism:0 "Belgische Verwaltungszone"
  BEL_Reichskommissariat_esotericism_DEF:0 "The Belgische Verwaltungszone"
+ RCH:0 "Reich government-in-exile"
+ RCH_DEF:0 "Reich government-in-exile"
+ RCH_ADJ:0 "The Reich government-in-exile"
+ RCH_fascism_party:0 "NSDAP"
+ RCH_fascism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei"
+
+### Decisions
+ GER_Foreign_Diplomacy:0 "Foreign Diplomacy"
+
+### Events
+ starting_ui_desc_GER:0 "It has only been a decade, yet it might as well have been a century! The old government of Hitler and his corrupt NSDAP proved to be a failure. Sure, the Conquest of the French and Polish \"nations\" showed the world stage the power of the Aryan people, but surely any German government could have succeeded. Where the old guard would fail was the stagnation in the East. The Pact with the Russian Bolsheviks in 1939 seemed to have, at the time, been a strategic deal to prepare for the grand invasion but time proved that theory wrong. \"Cautious, careful, calculating\": that is what they claimed to be when queried about the lack of an invasion into the Slavic heartlands but the Hyperborean Forefathers saw the truth. All the old guard wanted to do was allow the Reds to become the predominant power. However, all would change when the Hyperborean Forefathers began to conspire to bring Germany to greatness. A carefully planned overthrow was planned and when the Italian Civil War broke out, much of the military was stationed in the Mediterranean and it was now the time to strike. The details are hazy but within a few days, Berlin was under the control of the Hyperboreans and Hitler was dead. Relying on the support of the German people, with their disdain for the stagnating government, the old guard was pushed out of the mainland and forced into exile! Germany would finally rise to glory once again! Sure, there have been some problems facing the Reich in the past few years but these surely cannot combat the rise of the new Hyperborea! The time has come for the Aryans to take their rightful place as masters of the world!"
+ starting_ui_button_GER:0 "Deutschland, vorwärts!"

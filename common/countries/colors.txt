@@ -711,3 +711,7 @@ RIT = {
 	color = rgb { 121 150 73 }
 	color_ui = rgb { 121 150 73 }
 }
+RCH = {
+	color = rgb { 76 56 56 }
+	color_ui = rgb { 76 56 56 }
+}

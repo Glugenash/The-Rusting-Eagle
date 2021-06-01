@@ -1,0 +1,75 @@
+guiTypes = {
+	
+	containerWindowType = {
+		name = "starting_ui_window"
+		position = { x = -271 y = -290 }
+		size = { width = 543 height = 580 }
+		orientation = center
+		moveable = yes
+		
+		background = {
+			name = "background"
+			spriteType = "GFX_tiled_window"
+		}
+
+		containerWindowType = {
+			name = "starting_ui_desc_window"
+			position = { x = 12 y = 0 }
+			size = { width = 520 height = 568 }
+			margin = { left = 12 right = 12 }
+			verticalScrollbar = "right_vertical_slider"
+			clipping = yes
+		
+			background = {
+				name = "background"
+				spriteType = "GFX_tiled_paper_bg"
+			}
+
+			instantTextboxType = {
+				name = "starting_ui_desc"
+				position = { x = 0 y = 40 }
+				font = "vic_22"
+				text_color_code = b
+				text = "[this.starting_ui_desc]"
+				maxWidth = 510
+				maxHeight = 300
+				size = { width = 510 height = 30 }
+			}
+		}
+		
+		buttonType = {
+			name = "starting_ui_header"
+			spriteType = "GFX_header_bg"
+			orientation = UPPER_LEFT
+			position = { x = 0 y = 0 }
+		}	
+
+		instantTextboxType = {
+			name = "starting_ui_title"
+			position = { x = 64 y = 2 }
+			textureFile = ""
+			font = "hoi_30header"
+			borderSize = {x = 0 y = 0}
+			text = "[this.getname]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}	
+		
+		buttonType = {
+			name = "starting_ui_flag"
+			spriteType = "GFX_flag_small2"
+			orientation = UPPER_LEFT
+			position = { x = 16 y = 4 }
+		}
+		
+		buttonType = {
+			name = "close_starting_ui_button"
+			spriteType = "GFX_closebutton"
+			orientation = UPPER_LEFT
+			position = { x = 503 y = 2 }
+			shortcut = "RETURN"
+		}
+
+	}
+}

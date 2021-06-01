@@ -1,0 +1,25 @@
+defined_text = { # Country
+	name = starting_ui_button
+	text = {
+		trigger = {
+			tag = GER
+		}
+		localization_key = starting_ui_button_GER
+	}
+	text = {
+		localization_key = starting_ui_button_default
+	}
+}
+
+defined_text = { # Country
+	name = starting_ui_desc
+	text = {
+		trigger = {
+			tag = GER
+		}
+		localization_key = starting_ui_desc_GER
+	}
+	text = {
+		localization_key = starting_ui_desc_default
+	}
+}
