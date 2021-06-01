@@ -1,0 +1,33 @@
+ideas = {
+	country = {
+		GER_Resistance = {
+			
+			allowed = {
+				tag = GER
+				has_government = esotericism
+			}
+
+			cancel = {
+				not = {
+					has_government = esotericism
+				}
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_cost = 0.1
+				stability_factor = -0.2
+				fascism_drift = 0.05
+				neutrality_drift = 0.05
+				surrender_limit = -0.25
+			}
+			rule = {
+			}
+		}
+	}
+}

@@ -51,6 +51,9 @@
  RCH_fascism_party:0 "NSDAP"
  RCH_fascism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei"
 
+### Ideas
+ GER_Resistance:0 "German Resistance"
+
 ### Decisions
  GER_Foreign_Diplomacy:0 "Foreign Diplomacy"
 
