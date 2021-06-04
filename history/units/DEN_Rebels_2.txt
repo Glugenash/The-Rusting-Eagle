@@ -1,0 +1,38 @@
+units = {
+	division= {
+		division_template = "Militia"
+        start_experience_factor = 0.5
+        start_equipment_factor = 0.5
+        location = 3206
+	}
+	division= {
+		division_template = "Militia"
+        start_experience_factor = 0.5
+        start_equipment_factor = 0.5
+        location = 6235
+	}
+	division= {
+		division_template = "Militia"
+        start_experience_factor = 0.5
+        start_equipment_factor = 0.5
+        location = 316
+	}
+	division= {
+		division_template = "Militia"
+        start_experience_factor = 0.5
+        start_equipment_factor = 0.5
+        location = 3206
+	}
+	division= {
+		division_template = "Militia"
+        start_experience_factor = 0.5
+        start_equipment_factor = 0.5
+        location = 6235
+	}
+	division= {
+		division_template = "Militia"
+        start_experience_factor = 0.5
+        start_equipment_factor = 0.5
+        location = 316
+	}
+}

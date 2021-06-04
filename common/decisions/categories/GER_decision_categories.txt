@@ -5,3 +5,15 @@ GER_Foreign_Diplomacy = {
 		tag = GER
 	}
 }
+
+RCH_Unternehmen_Vaterlandsubung = {
+	icon = ger_military_buildup
+
+	allowed = {
+		tag = RCH
+	}
+
+	visible_when_empty = yes
+
+	priority = 10000
+}

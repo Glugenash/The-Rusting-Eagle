@@ -1,0 +1,50 @@
+units = {
+	division= {
+		division_template = "Militia"
+        start_experience_factor = 0.5
+        start_equipment_factor = 0.5
+        location = 6364
+	}
+	division= {
+		division_template = "Militia"
+        start_experience_factor = 0.5
+        start_equipment_factor = 0.5
+        location = 394
+	}
+	division= {
+		division_template = "Militia"
+        start_experience_factor = 0.5
+        start_equipment_factor = 0.5
+        location = 3341
+	}
+	division= {
+		division_template = "Militia"
+        start_experience_factor = 0.5
+        start_equipment_factor = 0.5
+        location = 6287
+	}
+	division= {
+		division_template = "Militia"
+        start_experience_factor = 0.5
+        start_equipment_factor = 0.5
+        location = 6364
+	}
+	division= {
+		division_template = "Militia"
+        start_experience_factor = 0.5
+        start_equipment_factor = 0.5
+        location = 394
+	}
+	division= {
+		division_template = "Militia"
+        start_experience_factor = 0.5
+        start_equipment_factor = 0.5
+        location = 3341
+	}
+	division= {
+		division_template = "Militia"
+        start_experience_factor = 0.5
+        start_equipment_factor = 0.5
+        location = 6287
+	}
+}

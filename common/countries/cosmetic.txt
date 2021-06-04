@@ -655,3 +655,7 @@ BEL_Reichskommissariat = {
 	color = rgb { 55 55 55 }
 	color_ui = rgb { 55 55 55 }
 }
+DEN_Rebels = {
+	color = rgb { 192 12 12 }
+	color_ui = rgb { 192 12 12 }
+}

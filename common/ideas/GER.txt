@@ -30,4 +30,31 @@ ideas = {
 			}
 		}
 	}
+	hidden_ideas = {
+
+		RCH_Rebel_Idea = {
+			allowed = {
+				always = yes
+			}
+
+			modifier = {
+				surrender_limit = 1
+			}
+
+			targeted_modifier = {
+				tag = GER
+				attack_bonus_against = 0.25
+				defense_bonus_against = 0.25
+			}
+
+			rule = {
+				can_create_factions = no
+				can_declare_war_on_same_ideology = no
+				can_not_declare_war = yes
+				can_join_factions = no
+				can_join_factions_not_allowed_diplomacy = yes
+				can_send_volunteers = no
+			}
+		}
+	}
 }

@@ -24,11 +24,11 @@
  GER_communism_party:0 "RSNP"
  GER_communism_party_long:0 "Revolutionäre Sozial-Nationalistische Partei"
 
- GER_esotericism:0 "Hyperborean Germanic Reich"
- GER_esotericism_DEF:0 "The Earthly Germanic Hyperborea of the Collective Aryan Unconscious"
+ GER_esotericism:0 "Großgermanisches Reich"
+ GER_esotericism_DEF:0 "Das Großgermanische Reich"
  GER_esotericism_ADJ:0 "Germanic"
- GER_esotericism_party:0 "NS-Ahnenerbe"
- GER_esotericism_party_long:0 "Nationalsozialistisches Ahnenerbe"
+ GER_esotericism_party:0 "NSGRP"
+ GER_esotericism_party_long:0 "Nationalsozialistische Germanische Reichspartei"
 
  GER_anarchism_ideology:0 "Union of Germany"
  GER_anarchism_ideology_DEF:0 "The Union of Germany"
@@ -56,7 +56,26 @@
 
 ### Decisions
  GER_Foreign_Diplomacy:0 "Foreign Diplomacy"
+ RCH_Unternehmen_Vaterlandsubung:0 "Unternehmen Vaterlandsübung"
+ RCH_Unternehmen_Vaterlandsubung_desc:0 "\n\n\n\n\n£RCH_Unternehmen_Vaterlandsubung_Header \n\n\n\n\n\n\nThe time to reclaim the fatherland has arrived! The devilish esoteric fools have governed the Reich for a decade now and have nearly completely run it into the ground! However, this will not come about for the exiled NSDAP, here in Norway, under Party Comrade Bormann shall soon reclaim the mainland in a grand invasion and Operation! It is our destiny! Ein volk, Ein Reich, Ein Führer!"
+# Reichskommissar für die Rückeroberung des Vaterlandes
+ RCH_Establish_the_RKROV:0 "Establish the RKROV"
+ RCH_Establish_the_RKROV_desc:0 "In order to begin the reconquest of the fatherland, a dedicated office to manage this grand task must be formalised. This office is to be led by \"Reichskommissar für die Rückeroberung des Vaterlandes\" Josef Bürckel who previously demonstrated excellence in reunifying Austria and the Saarland with the Reich." 
+ RCH_Prepare_Local_Danish_Militia:0 "Prepare Local Danish Militia"
+ RCH_Prepare_Local_Danish_Militia_Mission:0 "Prepare Local Danish Militia"
+ RCH_Expand_Local_Danish_Militia:0 "Expand Local Danish Militia"
+ RCH_Expand_Local_Danish_Militia_Mission:0 "Expand Local Danish Militia"
+ RCH_Summon_a_Danish_Rebellion:0 "Summon a Danish Rebellion"
+ DEN_Rebels_fascism:0 "Danish Rebels"
+ DEN_Rebels_fascism_DEF:0 "The Danish Rebels"
+ RCH_Support_the_Danish_Rebellion:0 "Unternehmen Angriffsvorbereitung"
 
 ### Events
  starting_ui_desc_GER:0 "It has only been a decade, yet it might as well have been a century! The old government of Hitler and his corrupt NSDAP proved to be a failure. Sure, the Conquest of the French and Polish \"nations\" showed the world stage the power of the Aryan people, but surely any German government could have succeeded. Where the old guard would fail was the stagnation in the East. The Pact with the Russian Bolsheviks in 1939 seemed to have, at the time, been a strategic deal to prepare for the grand invasion but time proved that theory wrong. \"Cautious, careful, calculating\": that is what they claimed to be when queried about the lack of an invasion into the Slavic heartlands but the Hyperborean Forefathers saw the truth. All the old guard wanted to do was allow the Reds to become the predominant power. However, all would change when the Hyperborean Forefathers began to conspire to bring Germany to greatness. A carefully planned overthrow was planned and when the Italian Civil War broke out, much of the military was stationed in the Mediterranean and it was now the time to strike. The details are hazy but within a few days, Berlin was under the control of the Hyperboreans and Hitler was dead. Relying on the support of the German people, with their disdain for the stagnating government, the old guard was pushed out of the mainland and forced into exile! Germany would finally rise to glory once again! Sure, there have been some problems facing the Reich in the past few years but these surely cannot combat the rise of the new Hyperborea! The time has come for the Aryans to take their rightful place as masters of the world!"
  starting_ui_button_GER:0 "Deutschland, vorwärts!"
+ RCH_Danish_Rebels.1.TITLE:0 "Success in Denmark!"
+ RCH_Danish_Rebels.1.DESC:0 "Unternehmen Angriffsvorbereitung, our mission to secure the future land incursion in Denmark to reach the core of Germany, has been a success! The rebellions lasted one month and the initial uprisings primarily focused on the Northern half of the Danish Jutland Peninsula alongside the former Danish capital, Copenhagen. Our month long secretly-backed rebellion has allowed us to make contacts and make preparations for the upcoming Unternehmen Vaterlandsübung: The primary invasion of the Central European region of the Vaterland through Denmark into Northern Germany, where Berlin will quickly be captured. These efforts have ensured that Denmark will quickly be reliberated as a base of incursion. We must, however, not forget the efforts of our Germanic brothers in Denmark, many of which sacrificed themselves to ensure that one day in the not-so-distant future, no longer will the Broken Suncross-covered banner of esotericism, insanity and tomfoolery wave!"
+ RCH_Danish_Rebels.1.A:0 "Your sacrifices will not be in vain..."
+ RCH_Danish_Rebels.2.TITLE:0 "Failure in Denmark!"
+ RCH_Danish_Rebels.2.DESC:0 "Unternehmen Angriffsvorbereitung, our mission to secure the future land incursion in Denmark to reach the core of Germany, has been an absolute failure! Our secretly-backeed rebellions, planned to last a month, has been crushed by the forces of the cowardly [GER.GetNameWithFlag] and our mission goal, to establish contact and prepare for our future incursion into the Central European heartland via a swift occupation of Denmark, has been a failure. Unfortunately, our invasion of the fatherland will likely be more costly."
+ RCH_Danish_Rebels.2.A:0 "Nethertheless, we shall still win in the end..."
